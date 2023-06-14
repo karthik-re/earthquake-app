@@ -1,0 +1,103 @@
+.filters {
+  margin: 2rem auto;
+  max-width: 30rem;
+}
+
+.filters h1 {
+  padding-left: 1rem;
+}
+
+.filterDiv {
+  padding: 1rem;
+}
+
+.filterDiv label {
+  padding: 5px;
+}
+
+.filterDiv input {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.filterDiv select {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.limitInput {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 40px;
+}
+
+.slider {
+  margin-top: 1rem;
+  width: 20rem;
+  height: 5px;
+  background-color: #468bc8;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.renderThumb {
+  font-size: 12px;
+  color: black;
+  height: 20px;
+  width: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  border: 2px solid black;
+  margin-top: -10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.renderThumb:hover {
+  background-color: rgb(123, 200, 210);
+  transform: scale(1.1);
+}
+
+.renderThumb:active {
+  background-color: rgb(152, 138, 98);
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonContainer button {
+  flex: 1;
+  margin-right: 0.5rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.buttonContainer button:last-child {
+  margin-right: 0;
+}
+
+.applyButton {
+  background-color: rgba(20, 149, 39, 0.859);
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.applyButton:hover {
+  background-color: rgba(29, 197, 54, 0.859);
+  transform: scale(1.02);
+}
+
+.clearButton {
+  background-color: #568dcc;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.clearButton:hover {
+  background-color: #6aa6eb;
+  transform: scale(1.02);
+}

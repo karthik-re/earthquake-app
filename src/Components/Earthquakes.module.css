@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+}
+
+.filtersContainer {
+  flex: 1;
+  margin-right: -10px;
+}
+
+.eventListContainer {
+  flex: 1;
+}

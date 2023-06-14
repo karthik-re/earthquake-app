@@ -1,0 +1,16 @@
+/* Error.module.css */
+.content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.content h1 {
+  font-size: 24px;
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 16px;
+  color: #cdc4c4;
+}

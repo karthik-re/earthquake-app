@@ -1,0 +1,35 @@
+.footer {
+  max-width: 80rem;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e5285;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+
+.list a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.list a:hover,
+.list a.active {
+  color: #ffcc00;
+  text-decoration: underline;
+  animation: fade-in 0.3s ease;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
