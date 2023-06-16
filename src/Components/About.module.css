@@ -1,0 +1,51 @@
+/* About.module.css */
+/* About.module.css */
+
+.card {
+  max-width: 40rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Rest of your CSS code */
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.socialTitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.socialIcons {
+  display: flex;
+}
+
+.iconLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 10px;
+  color: #000;
+  transition: color 0.3s;
+}
+
+.iconLink:hover {
+  color: #ff4500;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.iconText {
+  font-size: 14px;
+}

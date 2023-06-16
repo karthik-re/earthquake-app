@@ -1,0 +1,7 @@
+-----------------06-16-2023------------------
+1. Added changelog to keep track of all the changes I make
+2. Removed the console.log from Events which appeared when you clicked clear
+3. Added a new route so that all invalid routes redirect to HomePage
+4. Removed eventId input from filters as I felt it was redundant
+5. Added defer function to Events.js to handle load state 
+6. Added About page

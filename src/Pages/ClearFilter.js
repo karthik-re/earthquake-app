@@ -17,7 +17,6 @@ const DEFAULT_FILTERS = {
 export { DEFAULT_FILTERS };
 
 export const action = () => {
-  console.log("here clicked");
   localStorage.removeItem("filterData");
 
   let filterData = DEFAULT_FILTERS;
