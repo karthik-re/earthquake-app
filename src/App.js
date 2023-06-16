@@ -9,9 +9,10 @@ import EventPage, {
 } from "./Pages/Events";
 import HomePage from "./Pages/Home";
 import EventDetailPage, { loader as earthDetailLoader } from "./Pages/Detail";
-import FiltersEQ from "./Components/EarthquakeFilters";
 import { filterDataLoader } from "./util/FilterData";
 import { action as clearFiltersAction } from "./Pages/ClearFilter";
+import { loader as redirectLoader } from "./Pages/Redirect";
+import AboutPage from "./Components/About";
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,6 @@ const router = createBrowserRouter([
     loader: filterDataLoader,
     children: [
       { index: true, element: <HomePage /> },
-      { path: "test", element: <FiltersEQ /> },
       {
         path: "earthquakes",
         children: [
@@ -50,6 +50,14 @@ const router = createBrowserRouter([
       {
         path: "clear-filters",
         action: clearFiltersAction,
+      },
+      {
+        path: "*",
+        loader: redirectLoader,
+      },
+      {
+        path: "about",
+        element: <AboutPage />,
       },
     ],
   },

@@ -82,15 +82,16 @@ const FiltersEQ = () => {
               defaultValue={filterData.endtime}
             />
           </div>
-          <div className={style.filterDiv}>
+          {/* <div className={style.filterDiv}>
             <label htmlFor="eventId">Event Id</label>
             <input
               id="eventId"
               type="text"
               name="eventId"
-              defaultValue={filterData.eventid}
+              onChange={() => {}}
+              value={filterData.eventid || ""}
             />
-          </div>
+          </div> */}
           <div className={style.filterDiv}>
             <label htmlFor="limit">Limit</label>
             <input
